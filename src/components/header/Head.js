@@ -1,8 +1,17 @@
 import React from 'react'
+import CV from "../../assets/Resume.pdf"
 
 function Head() {
   return (
-    <div>Head</div>
+    <div>
+        <h5>Hello, I'm</h5>
+        <h1>Chinwendu Faustina (Clarefausty)</h1>
+        <h5>Frontend Developer</h5>
+        <div >
+            <a href={CV}>Download CV</a>
+            <a href='#contact'>Let's Talk</a>
+        </div>
+    </div>
   )
 }
 
