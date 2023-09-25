@@ -4,15 +4,17 @@
     justify-content: center;
     margin-top: 2em;
 }
+a{
+    text-decoration: none;
+}
 .head-btn a{
-   text-decoration: none;
    padding: 1em 2em;
     background-color: #4a4e69;
     border-radius: .5rem;
 }
 .head-section2{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .handles{
@@ -20,12 +22,6 @@
     flex-direction: column;
     gap: 3rem;
 }
-.scroll .handles{padding-top: 9em;}
-.me-con{
-    margin-top: 0;
-    padding: 0;
-}
-.me-con img{
-    padding: 0;
-    margin-top: 0;
+.scroll, .handles{
+    padding-top: 15em;
 }
