@@ -4,6 +4,7 @@ import "./head.css"
 import {BsGithub} from "react-icons/bs"
 import {AiFillTwitterSquare} from "react-icons/ai"
 import {AiFillLinkedin} from "react-icons/ai"
+import ME from "../../assets/ME-removebg-preview.png"
 
 function Head() {
   return (
@@ -16,10 +17,16 @@ function Head() {
             <a className='talk-btn' href='#contact'>Let's Talk</a>
         </div>
         <div className='head-section2'>
-            <div>
-                <BsGithub/>
-                <AiFillTwitterSquare/>
-                <AiFillLinkedin/>
+            <div className='handles'>
+                <a href='https://github.com/clarefausty'><BsGithub/></a>
+                <a href='https://twitter.com/ChinwenduFausty'><AiFillTwitterSquare/></a>
+                <a href='https://www.linkedin.com/in/chinwenduachilonu/'><AiFillLinkedin/></a>
+            </div>
+            <div className='me-con'>
+                <img src={ME} alt='Me'/>
+            </div>
+            <div className='scroll'>
+            <a href='#contact'>Scroll Down</a>
             </div>
         </div>
     </div>
