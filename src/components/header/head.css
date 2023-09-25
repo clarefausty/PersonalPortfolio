@@ -1,0 +1,12 @@
+.head-btn{
+    display: flex;
+    gap: 4rem;
+    justify-content: center;
+    margin-top: 2em;
+}
+.head-btn a{
+   text-decoration: none;
+   padding: 1em 2em;
+    background-color: #4a4e69;
+    border-radius: .5rem;
+}

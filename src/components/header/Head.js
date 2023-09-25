@@ -8,9 +8,9 @@ function Head() {
         <h5>Hello, I'm</h5>
         <h1>Chinwendu Faustina (Clarefausty)</h1>
         <h5>Frontend Developer</h5>
-        <div >
-            <a href={CV}>Download CV</a>
-            <a href='#contact'>Let's Talk</a>
+        <div className='head-btn' >
+            <a download className='cv-btn' href={CV}>Download CV</a>
+            <a className='talk-btn' href='#contact'>Let's Talk</a>
         </div>
     </div>
   )
