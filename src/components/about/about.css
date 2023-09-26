@@ -36,12 +36,20 @@
     height: 10rem;
     display: grid;
     place-items: center;
+    font-size: 1.4rem;
 }
 .about-card:hover{
     background: transparent;
     border:2px solid var(--color-primary);
     transition: var(--transition);
     cursor: default;
+}
+.about-card h5{
+    font-size: 0.95rem;
+}
+.about-card small{
+    font-size: 0.7rem;
+    color: var(--color-light)
 }
 .about-text{
     padding-top: 2em;
