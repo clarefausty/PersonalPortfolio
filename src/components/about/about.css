@@ -53,6 +53,7 @@
 }
 .about-text{
     padding-top: 2em;
+    color: var(--color-light)
 }
 .talk-btn{
     padding-top: 2em;
