@@ -16,12 +16,13 @@ nav{
 nav a{
     background: transparent;
     padding: 0.9rem;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 }
 nav a:hover{
     background: rgba(0, 0, 0, 0.9);
 }
 nav a.active{
     background: var(--color-bg-variant);
-    color:var(--color-white)
+    color:var(--color-white);
+    border-radius: 70%;
 }
