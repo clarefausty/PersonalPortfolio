@@ -38,3 +38,9 @@
 .about-text{
     padding-top: 2em;
 }
+.talk-btn{
+    padding-top: 2em;
+}
+.talk-btn button{
+    padding: 2em;
+} 
