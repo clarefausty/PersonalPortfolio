@@ -6,7 +6,7 @@ import {PiProjectorScreenChartFill} from "react-icons/pi"
 
 function About() {
   return (
-    <section id='about'>
+    <section id='about' className='container'>
         <h5>Get to know</h5>
         <h5>About Me</h5>
         <div className='about-container'>

@@ -41,7 +41,7 @@ html{
   display: none;
 }
 .container{
-  width: var(--container-width-lg);
+  /* width: var(--container-width-ms); */
   margin: 0 auto;
 }
 section{
