@@ -40,7 +40,7 @@ html{
 ::-webkit-scrollbar{
   display: none;
 }
-.container-app{
+.container{
   width: var(--container-width-lg);
   margin: 0 auto;
 }

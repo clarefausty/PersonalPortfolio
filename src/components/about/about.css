@@ -30,8 +30,10 @@
     border-radius: 1rem;
     width: 10rem;
     height: 10rem;
+    display: grid;
+    place-items: center;
 }
-.about-text{
+/* .about-text{
     max-width: 540px;
     padding-top: 2em;
-}
+} */
