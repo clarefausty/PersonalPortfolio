@@ -88,13 +88,15 @@
     }
     .about-container{
         grid-template-columns: 1fr;
-        gap: 0;
     }
     .about-me{
         width: 65%;
         margin: 0 auto 3rem;
     }
     
+    .about-text{
+        text-align: center;
+    }
     
     
 }

@@ -45,7 +45,7 @@ html{
   margin: 0 auto;
 }
 section{
-  margin: 8rem;
+  margin-top: 8em;
   height: 100vh;
   overflow: hidden;
 }
