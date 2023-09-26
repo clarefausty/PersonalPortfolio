@@ -44,7 +44,7 @@ html{
   /* width: var(--container-width-ms); */
   margin: 0 auto;
 }
-section{
+.section{
   margin-top: 8em;
   height: 100vh;
   overflow: hidden;

@@ -11,7 +11,7 @@ import "./experience.css"
 
 function Experience() {
   return (
-    <section className='container' id='experience'>
+    <section className='container section' id='experience'>
         <h1>Skills</h1>
         <div className='skills'>
             <div className='skill html'>
