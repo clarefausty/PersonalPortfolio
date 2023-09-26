@@ -1,4 +1,8 @@
-
+.head-con{
+    height: 120vh;
+    overflow: hidden;
+    padding-top: 5em;
+}
 .head-btn{
     display: flex;
     gap: 4rem;
@@ -17,6 +21,7 @@ a{
 .head-section2{
     display: flex;
     justify-content: space-around;
+    padding-top: 5em;
 }
 
 .handles{
@@ -28,6 +33,12 @@ a{
 .handles a{
     color: #4a4e69;
 }
+.me-con{
+    background-color: #4a4e69;
+    padding: 2em 1em;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+}
 .me-con img{
     width: 80%;
 }
@@ -37,8 +48,8 @@ a{
     height: 30rem;
 } */
 .scroll, .handles{
-    padding-top: 15em;
     font-size: 1.2rem;
+    padding-top: 6em;
 }
 .scroll{
     transform: rotate(270deg);

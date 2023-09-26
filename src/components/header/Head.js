@@ -4,11 +4,11 @@ import "./head.css"
 import {BsGithub} from "react-icons/bs"
 import {AiFillTwitterSquare} from "react-icons/ai"
 import {AiFillLinkedin} from "react-icons/ai"
-import ME from "../../assets/ME-removebg-preview.png"
+import ME from "../../assets/MI-removebg-preview.png"
 
 function Head() {
   return (
-    <div>
+    <div className='head-con'>
         <h5>Hello, I'm</h5>
         <h1>Chinwendu Faustina (Clarefausty)</h1>
         <h5>Frontend Developer</h5>

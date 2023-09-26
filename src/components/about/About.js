@@ -1,6 +1,6 @@
 import React from 'react'
 import "./about.css"
-import ME from "../../assets/ME-removebg-preview.png"
+import ME from "../../assets/MI-removebg-preview.png"
 import {FaAward} from "react-icons/fa"
 import {PiProjectorScreenChartFill} from "react-icons/pi"
 
