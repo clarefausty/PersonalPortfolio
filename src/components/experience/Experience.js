@@ -12,38 +12,38 @@ import "./experience.css"
 function Experience() {
   return (
     <section className='container' id='experience'>
-        <h2>Skills</h2>
+        <h1>Skills</h1>
         <div className='skills'>
             <div className='skill html'>
-            <SiHtml5/>
+            <SiHtml5 className='icon'/>
             <h5>HTML</h5>
             </div>
             <div className='skill css'>
-            <PiFileCssFill/>
+            <PiFileCssFill className='icon'/>
             <h5>CSS</h5>
             </div>
             <div className='skill js'>
-            <TbBrandJavascript/>
+            <TbBrandJavascript className='icon'/>
             <h5>JavaScript</h5>
             </div>
             <div className='skill react'>
-            <GrReactjs/>
+            <GrReactjs className='icon'/>
             <h5>React</h5>
             </div>
             <div className='skill tailwind'>
-            <SiTailwindcss/>
+            <SiTailwindcss className='icon'/>
             <h5>Tailwind CSS</h5>
             </div>
             <div className='skill bootstrap'>
-            <FaBootstrap/>
+            <FaBootstrap className='icon'/>
             <h5>Bootsrap</h5>
             </div>
             <div className='skill git'>
-            <BsGit/>
+            <BsGit className='icon'/>
             <h5>Git</h5>
             </div>
             <div className='skill github'>
-            <BsGithub/>
+            <BsGithub className='icon'/>
             <h5>Github</h5>
             </div>
         </div>

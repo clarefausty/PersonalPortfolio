@@ -11,13 +11,19 @@
 .skill h5{
     font-size: 2rem;
 }
-.html{
+.html .icon{
     color: #e34c26;
 }
-.react{
+.react .icon{
     color: #61DBFB;
 }
 
-.re{
-    color: #61DBFB;
+.css .icon{
+    color: #264de4;
+}
+.js .icon{
+    color: #F0DB4F;
+}
+.tailwind .icon{
+    color: #b8c2cc;
 }
