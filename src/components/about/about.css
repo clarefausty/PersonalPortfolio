@@ -4,6 +4,8 @@
     display: grid;
     grid-template-columns: 35% 50%;
     gap: 15%;
+    align-items: center;
+    padding-top: 4em;
 }
 .about-me{
     width: 100%;
@@ -16,7 +18,7 @@
     border-radius: 2rem;
     overflow: hidden;
     transform: rotate(10deg);
-    width: 80%;
+    width: 82%;
 }
 .about-me img:hover{
     transform: rotate(0);
@@ -24,7 +26,6 @@
 .about-cards{
     display: flex;
     gap: 5rem;
-    padding-top: 5em;
 }
 .about-card{
     background-color: #4a4e69;
