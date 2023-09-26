@@ -9,7 +9,7 @@
     gap: .5rem;
 }
 .skill h5{
-    font-size: 2rem;
+    font-size: 1.4rem;
 }
 .html .icon{
     color: #e34c26;
@@ -27,3 +27,13 @@
 .tailwind .icon{
     color: #b8c2cc;
 }
+.bootsrap .icon{
+    color: #563d7c;
+}
+.git .icon{
+    color: #F1502F;
+}
+.github .icon{
+    color: #171515;
+}
+
