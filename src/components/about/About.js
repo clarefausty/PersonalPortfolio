@@ -6,7 +6,7 @@ import {PiProjectorScreenChartFill} from "react-icons/pi"
 
 function About() {
   return (
-    <section id='about' className='container'>
+    <section id='about' className='container section'>
         <h5>Get to know</h5>
         <h5>About Me</h5>
         <div className='about-container'>
@@ -20,11 +20,11 @@ function About() {
                 <h5>Experience</h5>
                 <small>2+ years working</small>
                 </article>
-                <article  className='about-card'>
+                <article id='project'  className='about-card'>
                 <a href='https://docs.google.com/document/u/0/d/1V19V_yd7lgilcV1Pccy2o5Dkyp8VJkd4SECcgdHWip0/edit'>
                 <PiProjectorScreenChartFill/>
                 <h5>Projects</h5>
-                <small>10+ projects</small>
+                <small>Link to my projects</small>
                 </a>
                 </article>
             </div>

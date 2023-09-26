@@ -12,6 +12,7 @@ import "./experience.css"
 function Experience() {
   return (
     <section className='container section' id='experience'>
+        <div className='skills-con'>
         <h1>Skills</h1>
         <div className='skills'>
             <div className='skill html'>
@@ -32,7 +33,7 @@ function Experience() {
             </div>
             <div className='skill tailwind'>
             <SiTailwindcss className='icon'/>
-            <h5>Tailwind CSS</h5>
+            <h5>Tailwind</h5>
             </div>
             <div className='skill bootstrap'>
             <FaBootstrap className='icon'/>
@@ -46,6 +47,7 @@ function Experience() {
             <BsGithub className='icon'/>
             <h5>Github</h5>
             </div>
+        </div>
         </div>
     </section>
   )

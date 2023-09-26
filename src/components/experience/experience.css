@@ -1,13 +1,17 @@
 .container{
     width: var(--container-width-lg);
 }
+.skills-con h1{
+    margin-bottom: 3em;
+}
 .skills{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    row-gap: 2rem;
+    row-gap: 5rem;
+    place-items: center;
 }
 .skill{
-    font-size: 4rem;
+    font-size: 3rem;
     display: grid;
     gap: .5rem;
 }
@@ -41,36 +45,22 @@
 }
 
 @media screen and (max-width:1240px) {
-    .about-container{
-        grid-template-columns: auto;
-        gap: 0;
-    }
+    
     .container{
         width: var(--container-width-md);
     }
-    .about-me{
-        width: 50%;
-        margin: 0 auto 4rem;
-    }
-    .about-text{
-        margin: 1rem 0 1.5rem;
-    }
+   
+    
 }
 @media screen and (max-width:600px) {
     .container{
         width: var(--container-width-ms);
     }
-    .about-container{
-        grid-template-columns: 1fr;
+   
+    .skills{
+        grid-template-columns: 1fr 1fr 1fr;
     }
-    .about-me{
-        width: 65%;
-        margin: 0 auto 3rem;
+    .skill h5{
+        font-size: 1rem;
     }
-    
-    .about-text{
-        text-align: center;
-    }
-    
-    
 }
