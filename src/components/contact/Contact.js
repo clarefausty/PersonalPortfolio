@@ -6,7 +6,14 @@ function Contact() {
     <h5>Get in Touch</h5>
     <h2>Contact Me</h2>
     <div className='contact-container'>
+        <div className='contact-options'>
+        <article className='about-card'>
 
+        </article>
+        </div>
+    <form>
+
+    </form>
     </div>
     </section>
   )
