@@ -1,0 +1,23 @@
+.skills{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    row-gap: 2rem;
+}
+.skill{
+    font-size: 4rem;
+    display: grid;
+    gap: .5rem;
+}
+.skill h5{
+    font-size: 2rem;
+}
+.html{
+    color: #e34c26;
+}
+.react{
+    color: #61DBFB;
+}
+
+.re{
+    color: #61DBFB;
+}
