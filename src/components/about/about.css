@@ -1,0 +1,11 @@
+.about-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-cards{
+    display: flex;
+    gap: 2rem;
+}
+.about-card{
+    background-color: ;
+}
