@@ -13,13 +13,13 @@ function Contact() {
         <HiOutlineMail/>
         <h4>Email</h4>
         <h5>clarefausty@gmail.com</h5>
-        <a href="mailto:clarefausty@gmail.com" target='_blank'>Send a Message</a>
+        <a href="mailto:clarefausty@gmail.com">Send a Message</a>
         </article>
         <article className='about-card contact-option'>
         <HiOutlineMail/>
         <h4>Whatsapp</h4>
         <h5>+2348169569392</h5>
-        <a target='_blank' href='https://api.whatsapp.com/send?phone+2348169569392'>Send a Message</a>
+        <a  href='https://api.whatsapp.com/send?phone+2348169569392'>Send a Message</a>
         </article>
         </div>
     <form>
