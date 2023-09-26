@@ -24,16 +24,21 @@
     transform: rotate(0);
 }
 .about-cards{
-    display: flex;
-    gap: 5rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
 }
 .about-card{
     background-color: #4a4e69;
+    border: 1px solid transparent;
     border-radius: 1rem;
     width: 10rem;
     height: 10rem;
     display: grid;
     place-items: center;
+}
+.about-card:hover{
+    background: transparent;
 }
 .about-text{
     padding-top: 2em;
@@ -42,5 +47,6 @@
     padding-top: 2em;
 }
 .talk-btn button{
-    padding: 2em;
+    padding: 1em 2em;
+    border-radius: .5rem;
 } 
