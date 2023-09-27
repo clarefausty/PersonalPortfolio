@@ -24,6 +24,12 @@ form{
 form button{
     padding: 1em 2em;
     border-radius: .5rem;
+    cursor: pointer;
+    font-weight: 500;
+}
+form button:hover{
+    background-color: var(--color-primary-variant);
+    color: var(--color-white);
 }
 
 input, textarea{

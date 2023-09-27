@@ -32,7 +32,7 @@ function About() {
             <p>Dedicated and skilled Frontend Developer with a strong focus on JavaScript and React.js. Proficient in creating dynamic and responsive user interfaces, I bring creativity and technical expertise to web development projects. Experienced in collaborating with cross-functional teams to deliver high-quality, user-centric solutions. Eager to contribute my frontend development skills to drive innovation and enhance user experiences in the digital landscape.</p>
             </div>
             <div className='talk-btn'>
-                <button>Let's Talk</button>
+               <a href='#contact'> <button>Let's Talk</button></a>
             </div>
             </div>
         </div>

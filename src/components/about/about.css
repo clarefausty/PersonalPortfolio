@@ -64,7 +64,14 @@
 .talk-btn button{
     padding: 1em 2em;
     border-radius: .5rem;
+    cursor: pointer;
 } 
+.talk-btn button:hover{
+    color: var(--color-white);
+    background-color: var(--color-primary-variant);
+}
+
+
 
 @media screen and (max-width:1240px) {
     .about-container{
