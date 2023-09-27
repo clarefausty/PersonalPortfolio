@@ -8,7 +8,7 @@ import ME from "../../assets/MI-removebg-preview.png"
 
 function Head() {
   return (
-    <header className='container'>
+    <header id='home' className='container'>
     <div className='head-con'>
         <h5>Hello, I'm</h5>
         <h1>Chinwendu Faustina (Clarefausty)</h1>
