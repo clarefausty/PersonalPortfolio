@@ -1,0 +1,15 @@
+footer{
+    height: 40vh;
+    margin: 0 auto;
+    align-items: center;
+    display: grid;
+    gap: 5rem;
+    place-items: center;
+}
+.footer-handles{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.footer-handles a{
+    font-size: 4rem;
+}
