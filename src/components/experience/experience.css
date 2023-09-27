@@ -67,6 +67,7 @@
     }
     .skills{
         grid-template-columns: 1fr 1fr 1fr;
+        gap: 2rem;
     }
     .skill h5{
         font-size: 1rem;
