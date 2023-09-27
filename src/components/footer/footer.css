@@ -1,5 +1,4 @@
 footer{
-    height: 30vh;
     display: grid;
     row-gap: 5rem;
     place-items: center;
@@ -12,10 +11,5 @@ footer{
     margin: 0 auto;
 }
 .footer-handles a{
-    font-size: 4rem;
-}
-.footer-p{
-    display: grid;
-    margin: 0 auto;
-    text-align: center;
+    font-size: 3rem;
 }
