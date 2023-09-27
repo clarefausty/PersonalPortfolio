@@ -2,7 +2,7 @@
     width: var(--container-width-lg);
 }
 .skills-con h1{
-    margin-bottom: 3em;
+    margin-bottom: 1em;
 }
 .skills{
     display: grid;
