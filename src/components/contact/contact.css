@@ -37,10 +37,16 @@ input, textarea{
 }
 @media screen and (max-width:1240px) {
     
-    /* .contact-container{
+    .contact-container{
         grid-template-columns: auto;
-    } */
-   
+    }
+    .contact-options{
+        grid-template-columns: 1fr 1fr;
+        gap: 4rem;
+    }
+    .contact{
+        height: 80vh;
+    }
     
 }
 @media screen and (max-width:600px) {
