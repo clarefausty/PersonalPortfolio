@@ -16,11 +16,12 @@ function Contact() {
         <a href="mailto:clarefausty@gmail.com">Send a Message</a>
         </article>
         <article className='about-card contact-option'>
-        <HiOutlineMail/>
-        <h4>Whatsapp</h4>
-        <h5>+2348169569392</h5>
-        <a  href='https://api.whatsapp.com/send?phone+2348169569392'>Send a Message</a>
-        </article>
+  <HiOutlineMail />
+  <h4>Whatsapp</h4>
+  <h5>+2348169569392</h5>
+  <a href='https://api.whatsapp.com/send?phone=2348169569392'>Send a Message</a>
+</article>
+
         </div>
     <form>
     <input type='text' name='name' placeholder='Your name' required/>
