@@ -1,5 +1,5 @@
 footer{
-    height: 40vh;
+    height: 30vh;
     margin: 0 auto;
     align-items: center;
     display: grid;
@@ -10,6 +10,7 @@ footer{
 .footer-handles{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    margin: 0 auto;
 }
 .footer-handles a{
     font-size: 4rem;

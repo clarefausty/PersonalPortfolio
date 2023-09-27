@@ -62,7 +62,9 @@
     .container{
         width: var(--container-width-ms);
     }
-   
+    .experience{
+        height: 80vh;
+    }
     .skills{
         grid-template-columns: 1fr 1fr 1fr;
     }
