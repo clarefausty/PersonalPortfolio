@@ -3,13 +3,15 @@ footer{
     row-gap: 5rem;
     place-items: center;
     border-top: 2px solid #555;
-    text-align: center;
+    padding: 1em 0 1em 2em;
 }
 .footer-handles{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     margin: 0 auto;
+    align-items: center;
 }
 .footer-handles a{
-    font-size: 3rem;
+    font-size: 2rem;
 }
+
