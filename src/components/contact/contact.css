@@ -6,6 +6,8 @@
 .contact-options{
     display: grid;
     gap: 1rem;
+    align-items: center;
+    margin: 0 auto;
 }
 .contact-container{
     display: grid;
