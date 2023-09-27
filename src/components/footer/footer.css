@@ -1,11 +1,10 @@
 footer{
     height: 30vh;
-    margin: 0 auto;
-    align-items: center;
     display: grid;
-    gap: 5rem;
+    row-gap: 5rem;
     place-items: center;
     border-top: 2px solid #555;
+    text-align: center;
 }
 .footer-handles{
     display: grid;
@@ -14,4 +13,9 @@ footer{
 }
 .footer-handles a{
     font-size: 4rem;
+}
+.footer-p{
+    display: grid;
+    margin: 0 auto;
+    text-align: center;
 }
