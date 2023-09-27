@@ -14,7 +14,7 @@ function Footer() {
                 <a href='https://twitter.com/ChinwenduFausty'><AiFillTwitterSquare/></a>
                 <a href='https://www.linkedin.com/in/chinwenduachilonu/'><AiFillLinkedin/></a>
             <div className='footer-p'>
-              <Marquee>  <small >@{currentYear} clarefausty</small> </Marquee>
+              <Marquee>  @{currentYear} clarefausty </Marquee>
             </div>
             
             </div>
