@@ -18,7 +18,7 @@
 form{
     display: flex;
     flex-direction: column;
-    gap: 1.5rem;
+    gap: 1.7rem;
     align-items: center;
 }
 form button{
@@ -44,9 +44,12 @@ input, textarea{
     
 }
 @media screen and (max-width:600px) {
-   
+   .contact{
+    height: 140vh;
+   }
     .contact-container{
         grid-template-columns: auto;
+        gap: 2rem;
     }
    
 }
