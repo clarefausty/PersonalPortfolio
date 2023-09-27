@@ -35,21 +35,16 @@ input, textarea{
 }
 @media screen and (max-width:1240px) {
     
-    .contact-container{
+    /* .contact-container{
         grid-template-columns: auto;
-    }
+    } */
    
     
 }
 @media screen and (max-width:600px) {
-    .container{
-        width: var(--container-width-ms);
+   
+    .contact-container{
+        grid-template-columns: auto;
     }
    
-    .skills{
-        grid-template-columns: 1fr 1fr 1fr;
-    }
-    .skill h5{
-        font-size: 1rem;
-    }
 }
