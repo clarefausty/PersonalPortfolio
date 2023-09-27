@@ -1,3 +1,7 @@
+.experience{
+    height: 70vh;
+}
+
 .container{
     width: var(--container-width-lg);
 }
@@ -7,7 +11,7 @@
 .skills{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    row-gap: 5rem;
+    gap: 5rem;
     place-items: center;
 }
 .skill{
