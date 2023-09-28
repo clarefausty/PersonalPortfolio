@@ -1,0 +1,75 @@
+.experience{
+    height: 70vh;
+}
+
+.container{
+    width: var(--container-width-lg);
+}
+.skills-con h1{
+    margin-bottom: 1em;
+}
+.skills{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 5rem;
+    place-items: center;
+}
+.skill{
+    font-size: 3rem;
+    display: grid;
+    gap: .5rem;
+}
+.skill h5{
+    font-size: 1.4rem;
+}
+.html .icon{
+    color: #e34c26;
+}
+.react .icon{
+    color: #61DBFB;
+}
+
+.css .icon{
+    color: #264de4;
+}
+.js .icon{
+    color: #F0DB4F;
+}
+.tailwind .icon{
+    color: #b8c2cc;
+}
+.bootsrap .icon{
+    color: #563d7c;
+}
+.git .icon{
+    color: #F1502F;
+}
+.github .icon{
+    color: #171515;
+}
+
+@media (min-width:700px) and (max-width:1240px) {
+    
+    .container{
+        width: var(--container-width-md);
+    }
+    .experience{
+        height: 40vh;
+    }
+    
+}
+@media screen and (max-width:600px) {
+    .container{
+        width: var(--container-width-ms);
+    }
+    .experience{
+        height: 75vh;
+    }
+    .skills{
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 2rem;
+    }
+    .skill h5{
+        font-size: 1rem;
+    }
+}
