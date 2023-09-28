@@ -57,7 +57,7 @@ input, textarea{
 }
 @media screen and (max-width:600px) {
    .contact{
-    height: 145vh;
+    height: 148vh;
    }
     .contact-container{
         grid-template-columns: auto;
